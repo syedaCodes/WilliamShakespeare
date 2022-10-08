@@ -55,7 +55,7 @@ const classesOfTheThumbnails = ['one', 'two', 'three', 'four', 'five', 'six'];
 listOfThumbnails?
     listOfThumbnails.forEach(e => {
         e.addEventListener('mouseover', (item) => {
-            removeClasses();
+            // removeClasses();
             console.log(item.target.parentNode);
             
             // item.classList.add('one');
